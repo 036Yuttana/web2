@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Hire Me Freelance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+        body { font-family: 'Kanit', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="sticky top-0 bg-white shadow-sm z-50">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold text-blue-600">MY PORTFOLIO</div>
+            <div class="space-x-4">
+                <a href="#about" class="hover:text-blue-600">เกี่ยวกับ</a>
+                <a href="#services" class="hover:text-blue-600">บริการ</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">จ้างงาน</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-white py-20">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <div class="mb-6">
+                <img src="https://via.placeholder.com/150" alt="Profile" class="w-32 h-32 rounded-full mx-auto border-4 border-blue-100 shadow-lg">
+            </div>
+            <h1 class="text-4xl font-bold mb-2">สวัสดีครับ ผมชื่อ [ชื่อของคุณ]</h1>
+            <p class="text-xl text-gray-600 mb-6">[ระบุตำแหน่งงานของคุณ เช่น Web Developer / Graphic Designer]</p>
+            <div class="flex justify-center gap-4">
+                <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">ติดต่อจ้างงาน</a>
+                <a href="#services" class="border border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition">ดูผลงาน</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-10">ประวัติโดยย่อ</h2>
+            <div class="bg-white p-8 rounded-2xl shadow-sm">
+                <p class="text-lg leading-relaxed text-gray-700">
+                    [ใส่คำอธิบายเกี่ยวกับตัวคุณ ประสบการณ์ทำงาน หรือความเชี่ยวชาญพิเศษของคุณที่นี่ เพื่อดึงดูดลูกค้า]
+                </p>
+                <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div class="p-4 bg-gray-50 rounded-lg">
+                        <div class="text-blue-600 font-bold text-xl">3+</div>
+                        <div class="text-sm">ปีประสบการณ์</div>
+                    </div>
+                    <div class="p-4 bg-gray-50 rounded-lg">
+                        <div class="text-blue-600 font-bold text-xl">50+</div>
+                        <div class="text-sm">โปรเจกต์ที่ทำ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-16">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-10">บริการที่รับทำ</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md border-b-4 border-blue-500">
+                    <i class="fas fa-code text-3xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                    <p class="text-gray-600">รับเขียนเว็บไซต์ด้วย React, Next.js หรือ WordPress ตามความต้องการ</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md border-b-4 border-blue-500">
+                    <i class="fas fa-paint-brush text-3xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+                    <p class="text-gray-600">ออกแบบหน้าจอแอปพลิเคชันและเว็บไซต์ให้ใช้งานง่ายและสวยงาม</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md border-b-4 border-blue-500">
+                    <i class="fas fa-search-dollar text-3xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">SEO Marketing</h3>
+                    <p class="text-gray-600">ปรับแต่งเว็บไซต์ให้ติดอันดับการค้นหาบน Google</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-blue-600 text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">สนใจร่วมงานกันไหม?</h2>
+            <p class="mb-10 text-blue-100">สามารถติดต่อสอบถามรายละเอียดหรือขอประเมินราคาได้ฟรี</p>
+            <div class="flex flex-wrap justify-center gap-8">
+                <a href="mailto:yourname@email.com" class="flex items-center gap-2 hover:underline">
+                    <i class="fas fa-envelope"></i> yourname@email.com
+                </a>
+                <a href="tel:0812345678" class="flex items-center gap-2 hover:underline">
+                    <i class="fas fa-phone"></i> 08x-xxx-xxxx
+                </a>
+                <a href="https://line.me" class="flex items-center gap-2 hover:underline">
+                    <i class="fab fa-line"></i> @YourLineID
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-gray-500 text-sm">
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
